@@ -6,6 +6,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/spf13/cobra"
 	"github.com/weaveworks/eksctl/pkg/ctl/cmdutils"
+	"github.com/weaveworks/eksctl/pkg/testutils"
+	"testing"
 )
 
 var _ = Describe("get", func() {

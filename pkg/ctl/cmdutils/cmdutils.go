@@ -30,9 +30,6 @@ func NewVerbCmd(use, short, long string) *cobra.Command {
 				logger.Debug("ignoring error %q", err.Error())
 			}
 		},
-		FParseErrWhitelist: cobra.FParseErrWhitelist{
-			UnknownFlags: true,
-		},
 	}
 }
 
